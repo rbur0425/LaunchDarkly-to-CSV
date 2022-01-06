@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {"Src\\": "src/"}
+      },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/launchdarkly/api-client-php.git"
+    }
+  ],
+  "require": {
+    "launchdarkly/api-client-php": "*@dev",
+        "vlucas/phpdotenv": "^5.3"
+  }
+}
